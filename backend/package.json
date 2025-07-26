@@ -38,6 +38,7 @@
     "nestjs-i18n": "^10.5.1",
     "nodemon": "^3.0.2",
     "pg": "^8.16.3",
+    "qrcode": "^1.5.4",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "swagger-ui-express": "^5.0.1",
