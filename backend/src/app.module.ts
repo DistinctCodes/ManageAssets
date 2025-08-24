@@ -10,7 +10,6 @@ import { ApiKeysModule } from "./api-keys/api-keys.module";
 import { OrganizationUnitsModule } from "./organization-units/organization-units.module";
 import { ChangeLogModule } from "./change-log/change-log.module";
 import { BarcodeModule } from "./barcode/barcode.module";
-import { ComplianceModule } from "./compliance/compliance.module";
 import { MobileDevicesModule } from "./mobile-devices/mobile-devices.module";
 import { PolicyDocumentsModule } from "./policy-documents/policy-documents.module";
 import { DeviceHealthModule } from "./device-health/device-health.module";
@@ -23,6 +22,8 @@ import { TransferModule } from './transfer/transfer.module';
 import { BarcodesModule } from './barcodes/barcodes.module';
 import { CustomFieldsModule } from "./custom-fields/custom-fields.module"
 import { ApprovalEngineModule } from "./approval-engine/approval-engine.module"
+import { ComplianceModule } from "./compliance/compliance.module";
+import { ContactModule } from "./contact/contact.module";
 
 @Module({
   imports: [
@@ -62,6 +63,7 @@ import { ApprovalEngineModule } from "./approval-engine/approval-engine.module"
     TransferModule,
     BarcodesModule,
     CustomFieldsModule,
+    ContactModule,
     ApprovalEngineModule,
   ],
   controllers: [AppController],
